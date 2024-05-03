@@ -9,6 +9,8 @@ let n4 = parseFloat(prompt("Coloque a nota: "))
 
 media = (n1 + n2 + n3 + n4) / 4
 
+console.log (media)
+
 if (media >= 7) {
     alert("Aprovado");
 
@@ -16,3 +18,4 @@ if (media >= 7) {
     alert("Recuperação"); 
 } else {
     alert ("Reprovado")
+}
