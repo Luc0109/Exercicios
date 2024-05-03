@@ -1,20 +1,46 @@
-// Escreva um programa que solicita ao usuário um nome de usuário e uma senha. Verifique se o
-// nome de usuário é &quot;admin&quot; e a senha é &quot;senha123&quot;. Exiba uma mensagem indicando se o login
-// foi bem-sucedido ou não.
-let usuário = prompt("Coloque seu usuario: ")
-let senha = prompt("Digite sua senha: ")
+let dia = prompt ("Coloque um número: ")
 
-console.log("Seja bem vindo " + usuário + "!!")
-console.log(senha)
+switch (dia) {
+    case "1":
+        dia = "Segunda";
+        console.log("Segunda-Feira")
+        break;
 
-if (usuário == "admin") {
-    console.log("Você é Admin")
+    default: 
+    console.log("Deve ser um número de 1 a 7.");
+        break;
+        case "2":
+            dia = "Terça";
+            console.log("Terça-Feira")
+            break;
+            case "3":
+            dia = "Quarta";
+            console.log("Quarta-Feira")
+            break;
+            case "4":
+            dia = "Quinta";
+            console.log("Quinta-Feira")
+            break;
+            case "5":
+            dia = "Sexta";
+            console.log("Sexta-Feira")
+            break;
+            case "6":
+            dia = "Sábado";
+            console.log("Sábado")
+            break;
+            case "7":
+            dia = "Domingo";
+            console.log("Domingo")
+            break;
 
-   if (senha == "senha123") {
-        console.log("Seja bem vindo ADMIN!");
-   }
-
-} else {
-    console.log("Você não tem permissçao de acesso!")
+       
 }
+
+
+
+    
+       
+
+
 
