@@ -82,8 +82,10 @@
 let age = prompt("Qual sua idade?")
 
 if (age  <18) {
-    
+
 }
+
+
 
 
 
