@@ -22,8 +22,8 @@
 // // // // // // // // //         console.log(contador)
 // // // // // // // // //     }
     
-// // // 4. Faça um programa que imprima na tela a tabuada de um número
-// // // qualquer escolhido pelo usuário até o 10.
+// 4. Faça um programa que imprima na tela a tabuada de um número
+// qualquer escolhido pelo usuário até o 10.
 
 // // // let numero = parseInt(prompt("Qual tabuada quer ver?(De 1 a 10)"))
 
@@ -39,7 +39,7 @@
 // // //     console.log("Por favor, insira um número válido.")
 // // // }
 
-// // // // // // // / Imprimir os primeiros 10 números da sequência de Fibonacci.
+// // // // // // // / 5.Imprimir os primeiros 10 números da sequência de Fibonacci.
 
 
 // // // // // // let fibonacci = [0, 1]; 
@@ -120,5 +120,7 @@
 
 
 
+
+ 
 
 
